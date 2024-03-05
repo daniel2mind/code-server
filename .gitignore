@@ -10,6 +10,7 @@ release-images/
 node_modules
 /plugins
 /lib/coder-cloud-agent
+/lib/vscode
 .home
 coverage
 **/.DS_Store
