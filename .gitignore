@@ -1,5 +1,6 @@
 .tsbuildinfo
 .cache
+.idea
 /out*/
 release/
 release-npm-package/
