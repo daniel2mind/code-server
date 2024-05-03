@@ -16,30 +16,30 @@ git clone https://github.com/daniel2mind/code-server;
 ~~~
 cd /path/to/code-server/lib && rm -rf vscode && git clone https://github.com/daniel2mind/vscode;
 
-cd /path/to/code-server/lib/vscode && yarn install; 
+cd /path/to/code-server/lib/vscode && sudo yarn install; 
 
-yarn add bootstrap-node;
+sudo yarn add bootstrap-node;
 ~~~
 
 ------
 
 #### Compile VS Code
 ~~~
-cd /path/to/code-server/lib/vscode && yarn compile; 
+cd /path/to/code-server/lib/vscode && sudo yarn compile; 
 ~~~
 
 ------
 
 #### Install dependences in code-server path
 ~~~
-cd /path/to/code-server && yarn install; 
+cd /path/to/code-server && sudo yarn install; 
 ~~~
 
 ------
 
 #### Build code-server
 ~~~
-cd /path/to/code-server && yarn build; 
+cd /path/to/code-server && sudo yarn build; 
 ~~~
 
 ------
